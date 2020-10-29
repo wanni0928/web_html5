@@ -1,0 +1,113 @@
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url("fontello.css");
+@import url(/css/reset.css);
+
+body *, 
+*::before,
+body *::after {
+    box-sizing: border-box;
+}
+/*link style*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*root*/
+html{
+    font-size: 1.4rem;
+}
+
+.main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body {
+    background-color: #ccc;
+}
+/* layout */
+.header, .visual, .main, .slogan, .footer-inner {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 30px 50px;
+}
+
+/* header */
+.header {
+    background-color:#fff;
+    border-radius: 0 0 15px 15px;
+}
+
+/*navigation*/
+.navigation {
+    background-color: orange;
+    height: 50px;
+    border-top: 2px solid #000;
+}
+
+/*logo*/
+.logo {
+    background-color: blue;
+
+}
+/*회원 서비스*/
+.member {
+    background-color: yellow;
+    text-align: right;
+}
+.member li {
+    display: inline-block;
+    
+}
+
+/* visual */
+.visual {
+    background-color: lime;
+}
+
+/* main contents */
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    background-color: #fff;
+    border-radius: 15px 15px 0 0;
+    min-height: 450px;
+    padding: 30px 15px;
+}
+.group {
+    margin: 0 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group1 {
+    
+    width: 250px;
+}
+.group2 {
+    
+    width: 380px;
+}
+.group3 {
+    
+    width: 190px;
+}
+
+/* slogan */
+.slogan {
+    background-color: skyblue;
+}
+
+/* footer */
+.footer {
+    background-color: purple;
+}
+
+.footer-inner {
+    background-color: orange;
+}
+
